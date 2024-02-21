@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button @click="fetchData">백엔드 호출9</button>
+    <button @click="fetchData">백엔드 호출10</button>
     <div v-if="showResponse">
       <!-- 백엔드에서 받은 데이터 표시 -->
       <p>{{ responseData }}</p>
